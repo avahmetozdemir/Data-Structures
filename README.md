@@ -20,4 +20,4 @@ Set objects are collections of values. A value in the Set may only occur once; i
 The specification requires sets to be implemented "that, on average, provide access times that are sublinear on the number of elements in the collection". Therefore, it could be represented internally as a hash table (with O(1) lookup), a search tree (with O(log(N)) lookup), or any other data structure, as long as the complexity is better than O(N).
 
 ### Reference
-- [MDN Web Docs] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+- [MDNWebDocs] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
