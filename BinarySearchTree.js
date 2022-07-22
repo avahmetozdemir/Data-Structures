@@ -1,5 +1,3 @@
-const { border } = require("@mui/system")
-
 class Node {
     constructor(data,left = null, right = null) {
         this.data = data //store
