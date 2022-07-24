@@ -30,7 +30,7 @@ The difference between stacks and queues is in removing. In a stack we remove th
 ### Reference
 - [GeeksforGeeks](https://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/)
 
-# Binary Search Tree
+## Binary Search Tree
 
 In computer science, **binary search trees** (BST), sometimes called 
 ordered or sorted binary trees, are a particular type of container: 
@@ -59,7 +59,7 @@ The leaves are not drawn.
 
 ![Binary Search Tree](https://upload.wikimedia.org/wikipedia/commons/d/da/Binary_search_tree.svg)
 
-## Complexities
+### Complexities
 
 ### Time Complexity
 
@@ -75,3 +75,32 @@ O(n)
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_tree)
 - [BST Interactive Visualisations](https://www.cs.usfca.edu/~galles/visualization/BST.html)
+
+## Hash Tables
+
+In computing, a hash table, also known as hash map or dictionary, is a data structure that implements a set abstract data type, a structure that can map keys to values. A hash table uses a hash function to compute an index, also called a hash code, into an array of buckets or slots, from which the desired value can be found. During lookup, the key is hashed and the resulting hash indicates where the corresponding value is stored.
+
+Hash Tables have different names in different programming languages and come with slight variations. They are called:Maps in Java, Hashes in Ruby,Dictionaries in Python,Objects in JavaScript.
+
+The hash table or object is a structured data type in JavaScript.
+
+With hash tables, we store key-value pairs.
+
+Other variations of hash tables in JavaScript are Map, Set, WeakMap, and WeakSet.
+
+The time complexity for the operations get and set is O(1) because of the way we store objects in memory.
+
+Hash tables are often used to reduce time complexity, with a trade-off of space complexity which is O(N).
+
+![Hash Table vs Array](https://miro.medium.com/max/1400/1*o8CJxocbPJ6T6fL8S5xj_g.png)
+
+![Hash Table](https://upload.wikimedia.org/wikipedia/commons/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg)
+
+Hash collision resolved by separate chaining.
+
+![Hash Collision](https://upload.wikimedia.org/wikipedia/commons/d/d0/Hash_table_5_0_1_1_1_1_1_LL.svg)
+
+### References
+
+- [Wikipedia](https://en.wikipedia.org/wiki/Hash_table)
+- [Medium](https://medium.com/geekculture/ds-with-js-hash-tables-f8fec13ad12a)
