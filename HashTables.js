@@ -70,6 +70,6 @@ let HashTable = function() {
   ht.add('ahmet', 'person');
   ht.add('cakir', 'cat');
   ht.add('rex', 'dinosour');
-  ht.add('güvercin', 'kus')
+  ht.add('güvercin', 'bird')
   console.log(ht.lookup('cakir'))
   ht.print();
